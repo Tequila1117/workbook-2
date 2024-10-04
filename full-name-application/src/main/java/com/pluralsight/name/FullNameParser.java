@@ -6,7 +6,7 @@ public class FullNameParser {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
-        System.out.println("Please enter your full name:");
+        System.out.println("Enter enter your full name:");
         String fullName = userInput.nextLine().trim();
 
         // Split the name by spaces
@@ -23,13 +23,5 @@ public class FullNameParser {
 
         userInput.close(); // Close the scanner
     }
-
-
-
-
-
-
-
-
 
 }
